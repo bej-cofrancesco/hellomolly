@@ -15,8 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="mx-auto flex flex-col items-center font-popmed text-base">
+      <body className="font-popmed text-base">
+        <main className="mx-auto flex flex-col items-center">
         {children}
+        </main>
       </body>
     </html>
   );
