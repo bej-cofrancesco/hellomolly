@@ -1,11 +1,11 @@
 import { ButtonComponentProps } from "@/types/types";
 
 export default function Button({variant, size, className, children, ...props}: ButtonComponentProps) {
-
+  // TODO: add dropshadow
   const variantStyles = () => {
     switch (variant) {
       case "inverse":
-        return "border-2 border-primary text-primary bg-white"
+        return "border-2 border-primary text-primary bg-transparent"
       default: 
         return "bg-primary text-white"
     }
@@ -23,7 +23,7 @@ export default function Button({variant, size, className, children, ...props}: B
   }
 
   return (
-    <button className={`${variantStyles()} ${getSize()} rounded-[3px] flex justify-center items-center`} {...props}>
+    <button className={`${className} ${variantStyles()} ${getSize()} rounded-[3px] flex justify-center items-center`} {...props}>
       {children}
     </button>
   )
