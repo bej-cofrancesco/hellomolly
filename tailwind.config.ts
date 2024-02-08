@@ -12,6 +12,7 @@ const config: Config = {
         primary: "#224F34",
         primaryLight: "#C2EFD4",
         secondary: "#328B56",
+        secondaryLight: "#267D49",
         black: "#454545",
         blackLight: "#373737",
         star: "#F5D426",
