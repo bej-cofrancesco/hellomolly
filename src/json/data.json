@@ -1,0 +1,44 @@
+{
+  "header": {
+    "logo": "Rivo",
+    "navigation": [
+      "Home",
+      "Shop",
+      "Feature",
+      "Contact"
+    ],
+    "login": "LOGIN"
+  },
+  "hero": {
+    "heading": "Discover and Find Your Own Fashion!",
+    "description": "Explore our curated collection of stylish clothing and accessories tailored to your unique taste.",
+    "cta": "EXPLORE NOW",
+    "image": ""
+  },
+  "best-selling": {
+    "title": "Best Selling",
+    "description": "Get in on the trend with our curated selection of best-selling styles.",
+    "products": [],
+    "cta": "SEE ALL"
+  },
+  "our-products": {
+    "title": "Our Products",
+    "description": "Get in on the trend with our curated selection of best-selling styles.",
+    "products": []
+  },
+  "exclusive-offer": {
+    "title": "Exclusive offer",
+    "description": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
+    "countdown": {
+      "days": "Days",
+      "hours": "Hours",
+      "mins": "Mins"
+    },
+    "cta": "BUY NOW"
+  },
+  "designer-clothes-for-you": {
+    "title": "Designer Clothes For You",
+    "description": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
+    "collections": []
+  }
+}
