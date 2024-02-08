@@ -15,19 +15,19 @@
     "cta": "EXPLORE NOW",
     "image": ""
   },
-  "best-selling": {
-    "title": "Best Selling",
+  "best_selling": {
+    "heading": "Best Selling",
     "description": "Get in on the trend with our curated selection of best-selling styles.",
     "products": [],
     "cta": "SEE ALL"
   },
   "our-products": {
-    "title": "Our Products",
+    "heading": "Our Products",
     "description": "Get in on the trend with our curated selection of best-selling styles.",
     "products": []
   },
   "exclusive-offer": {
-    "title": "Exclusive offer",
+    "heading": "Exclusive offer",
     "description": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
     "countdown": {
       "days": "Days",
@@ -37,7 +37,7 @@
     "cta": "BUY NOW"
   },
   "designer-clothes-for-you": {
-    "title": "Designer Clothes For You",
+    "heading": "Designer Clothes For You",
     "description": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
     "collections": []
   }
