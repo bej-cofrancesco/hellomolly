@@ -43,12 +43,8 @@
   src: url("../../public/fonts/Rufina-Regular.ttf") format("truetype");
 }
 
-
-@layer components {
-  .container {
-    width: 100%;
-    max-width: 1728px;
-    margin-left: auto;
-    margin-right: auto;
+@layer base {
+  .wrapper {
+    @apply pt-[77px] px-[20px] pb-[83px] lg:px-[89.5px] lg:pt-[54px] xl:px-[175px] lg:pb-[166px]
   }
 }
