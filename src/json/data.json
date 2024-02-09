@@ -4,7 +4,7 @@
     "navigation": [
       "Home",
       "Shop",
-      "Feature",
+      "Features",
       "Contact"
     ],
     "login": "LOGIN"
@@ -13,32 +13,126 @@
     "heading": "Discover and Find Your Own Fashion!",
     "description": "Explore our curated collection of stylish clothing and accessories tailored to your unique taste.",
     "cta": "EXPLORE NOW",
-    "image": ""
+    "image": "/images/hero.webp"
   },
   "best_selling": {
     "heading": "Best Selling",
     "description": "Get in on the trend with our curated selection of best-selling styles.",
-    "products": [],
-    "cta": "SEE ALL"
+    "products": [
+      {
+        "title": "Regular Fit Long Sleeve Top",
+        "price": "$38.99",
+        "rating": "5.0",
+        "image": "/images/regular_fit_long_sleeve.webp"
+      },
+      {
+        "title": "Black Crop Tailored Jacket",
+        "price": "$62.99",
+        "rating": "4.9",
+        "image": "/images/black_crop_tailored_jacket.webp"
+      },
+      {
+        "title": "Textured Sunset Shirt",
+        "price": "$49.99",
+        "rating": "5.0",
+        "image": "/images/textured_sunset_shirt.webp"
+      }
+    ],
+    "cta": "See all"
   },
-  "our-products": {
+  "our_products": {
     "heading": "Our Products",
     "description": "Get in on the trend with our curated selection of best-selling styles.",
-    "products": []
+    "products": [
+      {
+        "title": "Spread Collar Shirt",
+        "price": "$48.99",
+        "rating": "5.0",
+        "image": "/images/spread_collar_shirt.webp"
+      },
+      {
+        "title": "White Solid Formal Shirt",
+        "price": "$39.00",
+        "rating": "4.9",
+        "image": "/images/white_shirt.webp"
+      },
+      {
+        "title": "Shine On Me Blouse",
+        "price": "$42.99",
+        "rating": "4.8",
+        "image": "/images/shine_on_me.webp"
+      },
+      {
+        "title": "Gray Solid Padded Jacket",
+        "price": "$32.99",
+        "rating": "4.7",
+        "image": "/images/grey_jacket.webp"
+      },
+      {
+        "title": "Printed Loose T-shirt",
+        "price": "$39.99",
+        "rating": "5.0",
+        "image": "/images/printed_loose_shirt.webp"
+      },
+      {
+        "title": "Summer Wind Crop Shirt",
+        "price": "$39.95",
+        "rating": "4.7",
+        "image": "/images/summer_wind_crop.webp"
+      },
+      {
+        "title": "Tailored Jacket",
+        "price": "$46.00",
+        "rating": "4.9",
+        "image": "/images/tailored_jacket.webp"
+      },
+      {
+        "title": "Solid Round Neck T-shirt",
+        "price": "$36.00",
+        "rating": "5.0",
+        "image": "/images/solid_round_neck.webp"
+      }
+    ]
   },
-  "exclusive-offer": {
+  "exclusive_offer": {
     "heading": "Exclusive offer",
     "description": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
-    "countdown": {
-      "days": "Days",
-      "hours": "Hours",
-      "mins": "Mins"
-    },
+    "image": "/images/exclusive.webp",
+    "countdowns": [
+      {
+        "label": "Days",
+        "value": 6
+      },
+      {
+        "label": "Hours",
+        "value": 18
+      },
+      {
+        "label": "Min",
+        "value": 48
+      }
+    ],
     "cta": "BUY NOW"
   },
-  "designer-clothes-for-you": {
+  "collections_list": {
     "heading": "Designer Clothes For You",
     "description": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!",
-    "collections": []
+    "collections": [
+      {
+        "heading": "Accessories",
+        "description": "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.",
+        "image": "/images/accessories.webp"
+      },
+      {
+        "heading": "Dresses",
+        "description": "Explore a stunning range of designer dresses, including evening gowns and chic day dresses.",
+        "image": "/images/dresses.webp"
+      },
+      {
+        "heading": "Outerwear",
+        "description": "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons.",
+        "image": "/images/outwear.webp"
+      }
+    ]
   }
 }
