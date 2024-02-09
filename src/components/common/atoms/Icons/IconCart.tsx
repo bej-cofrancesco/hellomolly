@@ -6,8 +6,8 @@ export default function IconCart() {
       <path d="M40 34C40 36.7614 37.7614 39 35 39C32.2386 39 30 36.7614 30 34C30 31.2386 32.2386 29 35 29C37.7614 29 40 31.2386 40 34Z" fill="#10FF70"/>
       </g>
       <defs>
-      <filter id="filter0_d_25_371" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <filter id="filter0_d_25_371" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+      <feFlood floodOpacity="0" result="BackgroundImageFix"/>
       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
       <feOffset dx="1" dy="2"/>
       <feGaussianBlur stdDeviation="4.5"/>
