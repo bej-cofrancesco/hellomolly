@@ -26,15 +26,15 @@ export default async function Home() {
           </picture>
         </Hero.Content>
       </Hero>
-      <section className="w-full flex flex-col items-center pt-[77px] pb-10 wrapper">
+      <section className="w-full flex flex-col items-center pt-[77px] pb-10 wrapper inner">
         <Title heading={best_selling.heading} description={best_selling.description} />
         <CollectionList size="lg" products={best_selling.products} cta={best_selling.cta} />
       </section>
-      <section className="w-full flex-col items-center pt-10 pb-[70px] wrapper">
+      <section className="w-full flex-col items-center pt-10 pb-[70px] wrapper inner">
         <Title heading={our_products.heading} description={our_products.description} />
         <CollectionList size="sm" products={our_products.products} />
       </section>
-      <section className="w-full flex-col items-center pt-[70px] pb-[83.5px] wrapper">
+      <section className="w-full flex-col items-center pt-[70px] pb-[83.5px] wrapper inner">
         <ExclusiveOffer
             heading={exclusive_offer.heading}
             cta={exclusive_offer.cta}
@@ -48,7 +48,7 @@ export default async function Home() {
             </Countdown>
           </ExclusiveOffer>
       </section>
-      <section className="w-full flex-col items-center pt-[83.5px] wrapper">
+      <section className="w-full flex-col items-center pt-[83.5px] wrapper inner">
         <Title heading={collections_list.heading} description={collections_list.description} />
         <CollectionsList collections={collections_list.collections} />
       </section>

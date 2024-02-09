@@ -4,7 +4,7 @@ import { IconCart } from "@/components/common/atoms/Icons"
 
 export default function Header({ logo, navigation, login }: HeaderComponentProps) {
   return (
-    <header role="banner" className="flex justify-between items-center">
+    <header role="banner" className="flex justify-between items-center inner w-full">
       <div className="font-elephnt text-h6 text-primary">{logo}</div>
       <nav className="hidden lg:flex">
         <ul className="flex gap-10 xl:gap-[58px]">

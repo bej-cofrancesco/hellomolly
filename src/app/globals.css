@@ -48,3 +48,7 @@
     @apply pt-[77px] px-[20px] pb-[83px] lg:px-[89.5px] lg:pt-[54px] xl:px-[175px] lg:pb-[166px]
   }
 }
+
+.inner {
+  max-width: 1728px;
+}
