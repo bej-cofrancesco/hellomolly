@@ -1,13 +1,14 @@
 import { ButtonComponentProps } from "@/types/types";
 
-export default function Button({variant, size, className, children, ...props}: ButtonComponentProps) {
-  // TODO: add dropshadow
+export default function Button({variant, size, shadow, className, children, ...props}: ButtonComponentProps) {
   const variantStyles = () => {
     switch (variant) {
       case "inverse":
         return "border-2 border-primary text-primary bg-transparent"
-      default: 
-        return "bg-primary text-white"
+      case "primary": 
+        return "bg-primary text-white shadow-button"
+      default:
+        return ""
     }
   }
 
@@ -17,13 +18,27 @@ export default function Button({variant, size, className, children, ...props}: B
         return "h-[52px] w-[142px]"
       case "md":
         return "h-[65px] w-[224px]"
-      default: 
+      case "lg": 
         return "h-[74px] w-[258px]"
+      default:
+        return ""
+    }
+  }
+
+  const getShadow = () => {
+    switch (shadow) { 
+      case "primary":
+        return "shadow-buttonPrimary"
+      case "secondary": 
+        return "shadow-buttonSecondary"
+      default:
+        return ""
     }
   }
 
   return (
-    <button className={`${className} ${variantStyles()} ${getSize()} rounded-[3px] flex justify-center items-center`} {...props}>
+    <button className={`${className} ${variantStyles()} ${getSize()} ${getShadow()} rounded-sm flex justify-center items-center
+    `} {...props}>
       {children}
     </button>
   )
