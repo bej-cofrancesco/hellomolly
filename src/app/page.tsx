@@ -21,8 +21,8 @@ export default async function Home() {
         <Header logo={header.logo} navigation={header.navigation} login={header.login} />
         <Hero.Content>
           <CtaSection heading={hero.heading} description={hero.description} cta={hero.cta} />
-          <picture className="relative shrink-0 w-[570px] h-[717px]">
-            <Image src={hero.image} alt={hero.description} priority width={570} height={717} className="absolute inset-0 w-full h-full"/>
+          <picture className="relative">
+            <Image src={hero.image} alt={hero.description} priority width={570} height={717} />
           </picture>
         </Hero.Content>
       </Hero>
