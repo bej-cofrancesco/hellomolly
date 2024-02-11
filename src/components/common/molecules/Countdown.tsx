@@ -3,7 +3,7 @@ import { CountdownCardProps, CountdownProps } from "@/types/types";
 
 export default function Countdown({ children }: CountdownProps) {
   return (
-    <div className="flex gap-[35px] justify-start items-center">
+    <div className="flex gap-[35px] flex-col lg:flex-row justify-start items-center">
       {children}
     </div>
   )
