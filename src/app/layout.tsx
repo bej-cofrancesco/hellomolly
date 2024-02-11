@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Poppins, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 
 
