@@ -11,7 +11,7 @@ export default function ExclusiveOffer({ image, heading, description, cta, child
       </picture>
       <div className="flex flex-col gap-10 py-[75px] max-w-[589px]">
         <div className="flex flex-col gap-5">
-          <Heading as="h5" className="font-robslab text-bold text-h5">{heading}</Heading>
+          <Heading as="h3" className="font-robslab text-bold text-h5">{heading}</Heading>
           <p className="font-popmed text-body2 text-primary leading-[167%] text-wrap">{description}</p>
         </div>
         {children}
